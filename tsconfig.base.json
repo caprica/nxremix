@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nxremix/libs/my-lib": ["libs/my-lib/src/index.ts"],
+      "@nxremix/libs/my-lib/server": ["libs/my-lib/src/server.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
