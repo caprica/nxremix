@@ -3,7 +3,7 @@ import styles from './my-lib.module.css';
 export function MyLib() {
   return (
     <div className={styles['container']}>
-      <h1>Welcome to MyLib!</h1>
+      <h5>Welcome to MyLib!</h5>
     </div>
   );
 }
