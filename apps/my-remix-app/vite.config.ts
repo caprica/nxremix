@@ -22,4 +22,9 @@ declare module '@remix-run/node' {
       }),
       nxViteTsPaths(),
     ],
+    server: {
+        fs: {
+            allow: ['..']
+        },
+      },
   });
