@@ -23,9 +23,9 @@ declare module '@remix-run/node' {
       nxViteTsPaths(),
     ],
     server: {
-        port: 3000,
-        fs: {
-            allow: ['..']
-        },
+      port: 3000,
+      fs: {
+        allow: ['..']
       },
+    },
   });
