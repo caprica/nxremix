@@ -1,5 +1,21 @@
 # Nxremix
 
+This repository contains a fully-working monorepo using `nx` and contemporary Remix using `vite`.
+
+The nx plugin for Remix should now fully work out-of-the-box.
+
+What this repo shows fully working:
+
+ - remix application
+ - library
+ - import resolution across library and application
+ - hot module reloading across library and application
+ - e2e tests with Playwright
+ - GitHub action to build everything
+
+This is a basic working example, some further tweaks for prettier, eslint, commit-lint husky and so
+on may still be desirable.
+
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
 ✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
