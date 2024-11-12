@@ -16,6 +16,21 @@ What this repo shows fully working:
 This is a basic working example, some further tweaks for prettier, eslint, commit-lint husky and so
 on may still be desirable.
 
+Also, this is a minimal Remix application, adding Express instead of remix-serve and other changes
+may also desirable.
+
+To test everything is working locally:
+
+```bash
+nx affected -t --skip-nx-cache lint test build e2e
+```
+
+To run the local server, this command will work, but there are also other ways:
+
+```bash
+npx x run my-remix-app:dev
+```
+
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
 ✨ Your new, shiny [Nx workspace](https://nx.dev) is almost ready ✨.
